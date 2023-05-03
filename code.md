@@ -49,7 +49,7 @@ May 4, 2023
     submissions that were accepted as solutions in the CodeContests dataset.
 
     The study then sampled from the transformer model with a fixed sampling temperature and metadata conditioning. 
-    To reflect competitive programming contests and penalties, the authors chose to select ten best samples, or ten best
+    To reflect penalties in competitive programming contests, the authors chose to select ten best samples, or ten best
     submissions per problem, to evaluate with the hidden tests. To do so, they relied on filtering and clustering these 
     samples. Filtering ran the code in sample solutions against example tests given in the problem statement and removed
     samples that failed those tests. While this removed around 99% of generated solutions, the authors still needed to 
