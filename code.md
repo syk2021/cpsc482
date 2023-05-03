@@ -91,7 +91,7 @@ May 4, 2023
     is that they attempt to solve problems by memorizing the entire training set, there was no evidence of AlphaCode 
     doing so, since memorizing was not enough to solve problems in the validation set. When considered alongside the
     recent capabilities of ChatGPT generating code in many different programming languages and finding errors in user
-    inputted code, this study shows that machine learning systems may produce more competent code in the future.
+    inputted code, this study suggests that machine learning systems may produce more competent code in the future.
 
     That is not to suggest that this study goes without limitations. Li et al. found that AlphaCode solved more easier 
     problems than more difficult ones. For instance, the 41B model solved 62.4% of validation problems with problem
