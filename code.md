@@ -93,7 +93,7 @@ May 4, 2023
     recent capabilities of ChatGPT generating code in many different programming languages and finding errors in user
     inputted code, this study suggests that machine learning systems may produce more competent code in the future.
 
-    That is not to suggest that this study goes without limitations. Li et al. found that AlphaCode solved more easier 
+    This is not to suggest that this study was without limitations. Li et al. found that AlphaCode solved more easier 
     problems than more difficult ones. For instance, the 41B model solved 62.4% of validation problems with problem
     difficulty ratings between 800 and 1100, while it solved 7.8% of problems with ratings between 2400 and 2700. The
     model also showed a difference in what types of problems it could solve. Models used in this study had the highest
