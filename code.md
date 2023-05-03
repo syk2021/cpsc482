@@ -30,7 +30,7 @@ May 4, 2023
     dataset also had metadata such as problem difficulty ratings in the range [800, 3500] with higher ratings indicating
     more difficult problems, problem tags indicating what kinds of algorithms may be useful such as "divide and conquer," 
     "dynamic programming," or "data structures," and programming languages. By nature of competitive programming problems,
-    the authors did not have access to all the hidden test cases for each problem, so they generated extra tests by 
+    the authors did not have access to all of the hidden test cases for each problem, so they generated extra tests by 
     mutating existing ones. To equate the situation that the model faced with that faced by human progammers, they made
     sure that problems in the training set were problems that had appeared online before all problems in the validation
     and test sets. They trained models with varying numbers of parameters, ranging from 300 million (300M model) to 41 
