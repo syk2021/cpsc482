@@ -12,9 +12,9 @@ May 4, 2023
     approach from scratch, with strategic use of a multitude of algorithms and data structures. It also often requires
     understanding more complicated problem descriptions. Besides this, feedback attainable is minimal because there are
     private test cases and competitive programming problems become more difficult over time as programmers can rely on
-    their solutions for past problems. Because competitive programming is more challenging in this way, Li et al. 
-    emphasize that developing a machine learning system that can generate code for these problems is a "robust and 
-    meaningful benchmark for many aspects of intelligence."
+    their solutions for past problems to solve new ones. Because competitive programming is more challenging in this way,
+    Li et al. emphasize that developing a machine learning system that can generate code for these problems is a "robust
+    and meaningful benchmark for many aspects of intelligence."
 
 ### Methodology
     A new code generation system for competitive programming problems called AlphaCode was proposed in 2022 by Li et al. 
