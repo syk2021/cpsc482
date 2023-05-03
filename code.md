@@ -77,7 +77,7 @@ May 4, 2023
     methods, random selection (10@k with no filtering) was the worst performing model and 10@k with filtering and
     clustering, as used in AlphaCode, was the best performing model after perfect sample selection. If filtering was not
     applied, increasing the sample size did not bring improvement in the solve rate. While there still was a noticeable 
-    performance gap between the perfect sample selection model and 10@k with filtering and clustering, the results
+    performance gap between the perfect sample selection and 10@k with filtering and clustering models, the results
     proved that including the two techniques was helpful in achieving better performance.
 
 ## Thoughts and Comments
