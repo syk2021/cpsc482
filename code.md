@@ -96,7 +96,7 @@ May 4, 2023
     This is not to suggest that this study was without limitations. Li et al. found that AlphaCode solved more easier 
     problems than more difficult ones. For instance, the 41B model solved 62.4% of validation problems with problem
     difficulty ratings between 800 and 1100, while it solved 7.8% of problems with ratings between 2400 and 2700. The
-    model also showed a difference in what types of problems it could solve. Models used in this study had the highest
+    system also showed a difference in what types of problems it could solve. Models used in this study had the highest
     solve rates for problems with approaches such as bitmasks, sorting, greedy algorithms, and math but had the lowest
     solve rates for problems that required more complex approaches such as dynamic programming, constructive algorithms,
     and graph problems. This was related to the length of the solutions. Solutions for problems with bitmasks, sorting,
