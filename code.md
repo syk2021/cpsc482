@@ -32,21 +32,21 @@ May 4, 2023
     "dynamic programming," or "data structures," and programming languages. By nature of competitive programming problems,
     the authors did not have access to all of the hidden test cases for each problem, so they generated extra tests by 
     mutating existing ones. To equate the situation that the model faced with that faced by human progammers, they made
-    sure that problems in the training set were problems that had appeared online before all problems in the validation
-    and test sets. They trained models with varying numbers of parameters, ranging from 300 million (300M model) to 41 
-    billion (41B model) parameters for comparison.
+    sure that problems in the training set were ones that had appeared online before all problems in the validation
+    and test sets. For comparison, they trained models with varying numbers of parameters, which ranged from 300 million
+    (300M model) to 41 billion (41B model).
 
     The authors pretrained the models on the GitHub dataset with a cross-entropy next-token prediction loss for the
     decoder and a masked language modeling loss for the encoder. They then split GitHub files by uniformly sampling
     pivot locations and using files before the pivot as input to the encoder and files after the pivot as input to the
-    decoder. Then Li et al. fine-tuned the model on the CodeContests dataset using the problem's natural language 
-    description for the encoder and the problem's solution for the decoder. In this step, they used techinques such as
-    tempering, value conditioning and prediction, and a reinforcement learning algorithm called generation by off-policy
-    learning from demonstrations (GOLD) to improve the solve rate. By using tempering, a regularization technique that 
-    makes the token probability distribution sharper in training, they were able to avoid overfitting the model to the
-    fine-tuning dataset. Value conditioning and prediction used both correct and incorrect human submissions to expand
-    the training set. Through GOLD, Li et al. were able to focus training on the most likely human solutions out of many
-    submissions that were accepted as solutions in the CodeContests dataset.
+    decoder. Then the model was fine-tuned on the CodeContests dataset using the problem's natural language description
+    for the encoder and the problem's solution for the decoder. In this step, they used techinques such as tempering,
+    value conditioning and prediction, and a reinforcement learning algorithm called generation by off-policy learning
+    from demonstrations (GOLD) to improve the solve rate. By using tempering, a regularization technique that makes the
+    token probability distribution sharper in training, they were able to avoid overfitting the model to the fine-tuning
+    dataset. Value conditioning and prediction used both correct and incorrect human submissions to expand the training
+    set. Through GOLD, Li et al. were able to focus training on the most likely human solutions out of many submissions
+    that were accepted as solutions in the CodeContests dataset.
 
     The study then sampled from the transformer model with a fixed sampling temperature and metadata conditioning. 
     To reflect competitive programming contests and penalties, the authors chose to select ten best samples, or ten best
