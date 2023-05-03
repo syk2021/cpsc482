@@ -113,7 +113,7 @@ May 4, 2023
     evaluate the solutions, but in the case that a problem description is changed, test cases can help the system develop
     more correct outputs. Studies such as Zhang et al. (2023) suggest that applying a planning algorithm in the 
     transformer generation process may be helpful, as ideal code generation "[would] stop early in the generation process"
-    when it realizes that output would be wrong and "bias the generation process towards generating successful programs"
+    when it realizes that output would be wrong and "[would] bias the generation process towards generating successful programs"
     that would ultimately pass more test cases. In addition, improved natural language processing techniques may be 
     helpful. As pointed out by Hendler (2023), human programmers use mnemonic variable names and include comments that
     explain their code. Just as how these variable names and comments help human programmers understand code written by
