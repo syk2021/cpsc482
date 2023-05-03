@@ -62,7 +62,7 @@ May 4, 2023
     To evaluate how competitive these ten solutions were compared to human-generated code, the authors submitted their
     code to ten Codeforces competitions held from December 1st, 2021 to December 28th, 2021 that each had more than
     5,000 participants. Li et al. found that the system overall achieved an average ranking of top 54.3% when limited to
-    ten submissions per problem. They, however, also found that in 66% of solved problems, 1 submission was enough to 
+    ten submissions per problem. They, however, also noted that in 66% of solved problems, 1 submission was enough to 
     solve the problem. The authors then evaluated their models on the validation and test sets using a metric called 10@k.
     This measured the percentage of problems solved when k samples from the model were generated and 10 of them were 
     eventually submitted for evaluation on hidden tests. With up to 100,000 samples per problem (10@100K), the AlphaCode
