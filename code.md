@@ -111,7 +111,7 @@ May 4, 2023
 
     To overcome these shortcomings, having models consider test cases may be useful. Test cases in this model are used to
     evaluate the solutions, but in the case that a problem description is changed, test cases can help the system develop
-    more correct outputs. Studies such as Zhang et al. (2023) suggest that applying a planning algorithm in the 
+    more correct approaches. Studies such as Zhang et al. (2023) suggest that applying a planning algorithm in the 
     transformer generation process may be helpful, as ideal code generation "[would] stop early in the generation process"
     when it realizes that output would be wrong and "[would] bias the generation process towards generating successful
     programs" that would ultimately pass more test cases. In addition, improved natural language processing techniques
