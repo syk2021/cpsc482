@@ -80,8 +80,8 @@ May 4, 2023
     performance gap between the perfect sample selection and 10@k with filtering and clustering models, the results
     proved that including the two techniques was helpful in achieving better performance.
     
-    ![](./Images/results.jpg)
-    <figcaption>Source: Li et al (2022)</figcaption>
+![](./Images/results.jpg)
+<figcaption>Source: Li et al (2022)</figcaption>
 
 ## Thoughts and Comments
     What interests me most about this work is that it demonstrated that machine learning systems have the potential to
