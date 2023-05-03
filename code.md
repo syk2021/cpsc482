@@ -79,6 +79,8 @@ May 4, 2023
     applied, increasing the sample size did not bring improvement in the solve rate. While there still was a noticeable 
     performance gap between the perfect sample selection and 10@k with filtering and clustering models, the results
     proved that including the two techniques was helpful in achieving better performance.
+    
+    ![results.jpg]
 
 ## Thoughts and Comments
     What interests me most about this work is that it demonstrated that machine learning systems have the potential to
