@@ -77,8 +77,8 @@ May 4, 2023
     methods, random selection (10@k with no filtering) was the worst performing model and 10@k with filtering and
     clustering, as used in AlphaCode, was the best performing model after perfect sample selection. If filtering was not
     applied, increasing the sample size did not bring improvement in the solve rate. While there still was a noticeable 
-    gap with the performance of the perfect sample selection model, the performance of 10@k with filtering and clustering
-    proved that the inclusion of filtering and clustering increased the solve rate.
+    gap with the performance of the perfect sample selection model, the solve rate of 10@k with filtering and clustering
+    showed that including filtering and clustering helped with achieving better performance.
 
 ## Thoughts and Comments
     What interests me most about this work is that it demonstrated that machine learning systems have the potential to
