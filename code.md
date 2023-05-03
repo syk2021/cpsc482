@@ -78,7 +78,7 @@ May 4, 2023
     clustering, as used in AlphaCode, was the best performing model after perfect sample selection. If filtering was not
     applied, increasing the sample size did not bring improvement in the solve rate. While there still was a noticeable 
     gap with the performance of the perfect sample selection model, the solve rate of 10@k with filtering and clustering
-    indicated that including filtering and clustering helped with achieving better performance.
+    proved that including filtering and clustering helped with achieving better performance.
 
 ## Thoughts and Comments
     What interests me most about this work is that it demonstrated that machine learning systems have the potential to
