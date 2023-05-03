@@ -45,8 +45,8 @@ May 4, 2023
     from demonstrations (GOLD) to improve the solve rate. By using tempering, a regularization technique that makes the
     token probability distribution sharper in training, they were able to avoid overfitting the model to the fine-tuning
     dataset. Value conditioning and prediction used both correct and incorrect human submissions to expand the training
-    set. Through GOLD, Li et al. were able to focus training on the most likely human solutions out of many submissions
-    that were accepted as solutions in the CodeContests dataset.
+    set. Through GOLD, Li et al. were able to focus training on the most likely human solutions out of many other 
+    submissions that were accepted as solutions in the CodeContests dataset.
 
     The study then sampled from the transformer model with a fixed sampling temperature and metadata conditioning. 
     To reflect competitive programming contests and penalties, the authors chose to select ten best samples, or ten best
