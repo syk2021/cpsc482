@@ -1,4 +1,4 @@
-# Competitive-Level Code Generation with AlphaCode, Li et al. (2022)
+# Competition-Level Code Generation with AlphaCode, Li et al. (2022)
 Sophia Kang<br/>
 May 4, 2023
 
