@@ -99,9 +99,9 @@ May 4, 2023
     system also showed a difference in what types of problems it could solve. Models used in this study had the highest
     solve rates for problems with approaches such as bitmasks, sorting, greedy algorithms, and math but had the lowest
     solve rates for problems that required more complex approaches such as dynamic programming, constructive algorithms,
-    and graph problems. This was related to the length of the solutions. Solutions for problems with bitmasks, sorting,
-    greedy algorithms, and math were shorter while those for problems with dynamic programming, constructive algorithms,
-    and graph problems were longer.
+    and graphs. This was related to the length of the solutions. Solutions for problems with bitmasks, sorting, greedy
+    algorithms, and math were shorter while those for problems with dynamic programming, constructive algorithms, and
+    graphs were longer.
 
     AlphaCode was also sensitive to problem descriptions that were given as input. When a problem description that had
     asked to find the maximum product of two consecutive array elements was modified to find the minimum product or to
