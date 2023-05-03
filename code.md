@@ -1,4 +1,4 @@
-# Competitive-Level Code Generation with AlphaCode, Li et al (2022)
+# Competitive-Level Code Generation with AlphaCode, Li et al. (2022)
 Sophia Kang<br/>
 May 4, 2023
 
@@ -13,7 +13,7 @@ May 4, 2023
     requires understanding more complicated problem descriptions. Besides this, feedback attainable is minimal because
     there are private test cases and competitive programming problems become more difficult over time as programmers
     can rely on their solutions for past problems. Because competitive programming is more challenging in this way, 
-    Li et al emphasize that developing a machine learning system that can generate code for these problems is a 
+    Li et al. emphasize that developing a machine learning system that can generate code for these problems is a 
     "robust and meaningful benchmark for many aspects of intelligence."
 
 ### Methodology
@@ -39,13 +39,13 @@ May 4, 2023
     The authors pretrained the models on the GitHub dataset with a cross-entropy next-token prediction loss for the
     decoder and a masked language modeling loss for the encoder. The authors split GitHub files by uniformly sampling
     pivot locations and using files before the pivot as input to the encoder and files after the pivot as input to the
-    decoder. Then Li et al fine-tuned the model on the CodeContests dataset using the problem's natural language 
+    decoder. Then Li et al. fine-tuned the model on the CodeContests dataset using the problem's natural language 
     description for the encoder and the problem's solution for the decoder. In this step, they used techinques such as
     tempering, value conditioning and prediction, and a reinforcement learning algorithm called Generation by off-policy
     learning from demonstrations (GOLD) to improve the solve rate. By using tempering, a regularization technique that 
     makes the token probability distribution sharper in training, they were able to avoid overfitting the model to the
     fine-tuning dataset. Value conditioning and prediction used both correct and incorrect human submissions to expand
-    the training set. Through GOLD, Li et al were able to focus training on the most likely human solutions out of many
+    the training set. Through GOLD, Li et al. were able to focus training on the most likely human solutions out of many
     submissions that were accepted as solutions in the CodeContests dataset.
 
     The study then sampled from the transformer model with a fixed sampling temperature and metadata conditioning. 
@@ -61,7 +61,7 @@ May 4, 2023
 ### Results
     To evaluate how competitive these ten solutions were compared to human-generated code, the authors submitted their
     code to ten Codeforces competitions held from December 1st, 2021 to December 28th, 2021 that each had more than
-    5,000 participants. Li et al found that the system overall achieved an average ranking of top 54.3% when limited to
+    5,000 participants. Li et al. found that the system overall achieved an average ranking of top 54.3% when limited to
     ten submissions per problem. They, however, also found that in 66% of solved problems, 1 submission was enough to 
     solve the problem. The authors then evaluated their models on the validation and test sets using a metric called 10@k.
     This measured the percentage of problems solved when k samples from the model are generated and 10 of them are 
@@ -93,7 +93,7 @@ May 4, 2023
     recent capabilities of ChatGPT generating code in many different programming languages and finding errors in user
     inputted code, this study shows that machine learning systems may produce more competent code in the future.
 
-    That is not to suggest that this study goes without limitations. Li et al found that AlphaCode solved more easier 
+    That is not to suggest that this study goes without limitations. Li et al. found that AlphaCode solved more easier 
     problems than more difficult ones. For instance, the 41B model solved 62.4% of validation problems with problem
     difficulty ratings between 800 and 1100, while it solved 7.8% of problems with ratings between 2400 and 2700. The
     model also showed a difference in what types of problems it could solve. Models used in this study had the highest
@@ -111,7 +111,7 @@ May 4, 2023
 
     To overcome these shortcomings, having models consider test cases may be useful. Test cases in this model are used to
     evaluate the solutions, but in the case that a problem description is changed, test cases can help the program devise
-    better solutions. Studies such as Zhang et al (2023) suggest that applying a planning algorithm in the transformer
+    better solutions. Studies such as Zhang et al. (2023) suggest that applying a planning algorithm in the transformer
     generation process may be helful, as ideal code generation "[would] stop early in the generaiton process" when it
     realizes that output would be wrong and "bias the generation process towards generating generating successful 
     programs" that would ultimately pass more test cases. In addition, improved natural language processing techniques
