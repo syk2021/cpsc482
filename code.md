@@ -74,7 +74,7 @@ May 4, 2023
     parameters, of each model seemed to be an alternative, since solve rate also scaled log-linearly with the number of
     training parameters when near-optimal model sizes were chosen for each training compute size. Third, optimal model
     sizes increased as more training parameters were added to the model. Lastly, out of the different sample selection
-    methods, random selection (10@k with no filtering) was the lowest performing model and 10@k with filtering and
+    methods, random selection (10@k with no filtering) was the worst performing model and 10@k with filtering and
     clustering, as used in AlphaCode, was the best performing model after perfect sample selection. If no filtering was
     applied, increasing the sample size brought no improvement in the solve rate. While there still was a noticeable gap
     with the performance of the perfect sample selection model, 10@k with filtering and clustering proved to be better
